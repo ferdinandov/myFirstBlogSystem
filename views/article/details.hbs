@@ -1,0 +1,30 @@
+<div class="container body-content">
+    <div class="article-details">
+        <div class="row">
+            <div class="col-md-7">
+                <article>
+                    <header>
+                        <h2>{{title}}</h2>
+                    </header>
+
+                    <small class="author">
+                        {{author.fullName}}
+                    </small>
+
+                    <p>
+                        {{content}}
+                    </p>
+
+                    <footer>
+                        <div class="pull-right">
+
+                            <a class="btn btn-success btn-xs" href="/article/edit/{{id}}">Виж &raquo;</a>
+                            <a class="btn btn-danger btn-xs" href="/article/delete/{{id}}">Изтрий &raquo;</a>
+                            <a class="btn btn-default btn-xs" href="/">Назад &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
